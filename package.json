@@ -1,0 +1,29 @@
+{
+  "name": "aliyun-nodes",
+  "version": "1.0.0",
+  "description": "A command line for getting network tests to aliyun nodes.",
+  "main": "index.js",
+  "bin": {
+    "aliyun-nodes": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jeremaihloo/aliyun-nodes.git"
+  },
+  "keywords": [
+    "aliyun",
+    "nodes"
+  ],
+  "author": "jeremaihloo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremaihloo/aliyun-nodes/issues"
+  },
+  "homepage": "https://github.com/jeremaihloo/aliyun-nodes#readme",
+  "dependencies": {
+    "ping": "^0.2.2"
+  }
+}
